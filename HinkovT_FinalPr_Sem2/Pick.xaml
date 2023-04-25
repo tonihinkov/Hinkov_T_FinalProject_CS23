@@ -5,8 +5,50 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HinkovT_FinalPr_Sem2"
         mc:Ignorable="d"
-        Title="Pick" Height="450" Width="800">
+        Title="Pick" Height="852" Width="393" Background="#FF888888" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="441" Margin="-198,-257,-104,0" Grid.RowSpan="4" Stroke="#FFD9D9D9" VerticalAlignment="Top" Width="690" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="15.201"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="441" Margin="-170,13.333,-132,0" Grid.Row="3" Grid.RowSpan="8" Stroke="#FFD9D9D9" VerticalAlignment="Top" Width="690" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-19.551"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBlock HorizontalAlignment="Left" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="38" Width="388" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="2" Text="Pick a Destination!" Foreground="Black" Grid.Row="1" Height="107" Margin="0,9.667,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,2,0,0" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="22" Width="368" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="2" Text="Every charter begins at Sofia Airport's VIP Terminal, so you just have to tell us where you want to go" Foreground="Black" Grid.Row="4" Height="107" RenderTransformOrigin="0.516,0.6"/>
+        <Label Content="Preferred Drop-Off Location:" Foreground=" Black" FontSize="20" Grid.Row="6" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,32.333,0,0" Height="45" HorizontalContentAlignment="Center" Grid.RowSpan="2" />
+        <TextBox x:Name="txtDropOff" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,9.667,10,22" Grid.Row="7" BorderBrush="Black"/>
+        <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353"/>
+        <Button Content="Next" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="107,10,120,0" Grid.Row="8" Height="35" Width="161"/>
+        <Button Content="Go Back" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="107,10.333,120,0" Grid.Row="9" Height="35" Width="161"/>
     </Grid>
 </Window>

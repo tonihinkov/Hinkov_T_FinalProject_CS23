@@ -23,5 +23,10 @@ namespace HinkovT_FinalPr_Sem2
         {
             InitializeComponent();
         }
+
+        private void Submit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

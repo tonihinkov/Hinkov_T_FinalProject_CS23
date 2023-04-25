@@ -5,8 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HinkovT_FinalPr_Sem2"
         mc:Ignorable="d"
-        Title="SignUp" Height="450" Width="800">
+        Title="SignUp" Height="852" Width="393" Background="#FF888888" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="443" Margin="-135,-220,-167,0" Grid.RowSpan="4" Stroke="#FFD9D9D9" VerticalAlignment="Top" Width="690" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="22.514"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="443" Margin="-156,19,-146,0" Grid.Row="3" Grid.RowSpan="8" Stroke="#FFD9D9D9" VerticalAlignment="Top" Width="690" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-19.551"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBlock HorizontalAlignment="Left" Margin="0,0.667,0,0" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="38" Width="388" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="2" Text="Create a Membership" Foreground="Black" Grid.Row="1"/>
+        <Label Content="First name:" Foreground=" Black" FontSize="20" Grid.Row="4" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,0.333,0,0" Height="45" HorizontalContentAlignment="Center" />
+        <Label Content="Last name:" Foreground=" Black" FontSize="20" Grid.Row="5" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment=" Center" Width="388" Margin="0,0.667,0,26.667" Height="32" HorizontalContentAlignment="Center" />
+        <Label Content="Email:" Foreground=" Black" FontSize="20" Grid.Row="6" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment=" Center" Width="388" Margin="0,0.333,0,27" Height="32" HorizontalContentAlignment="Center" />
+        <Label Content="Username:" Foreground=" Black" FontSize="20" Grid.Row="7" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment=" Center" Width="388" Margin="0,0,0,27.333" Height="32" HorizontalContentAlignment="Center"/>
+        <Label Content="Password:" Foreground=" Black" FontSize="20" Grid.Row="8" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment=" Center" Width="388" Margin="0,0.667,0,27.667" Height="31" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="txtFirst_name" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,32,10,59" Grid.Row="4" Grid.RowSpan="2" BorderBrush="Black"/>
+        <TextBox x:Name="txtSecond_name" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,32,10,59" Grid.Row="5" Grid.RowSpan="2" BorderBrush="Black"/>
+        <TextBox x:Name="txtEmail" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,32,10,59" Grid.Row="6" Grid.RowSpan="2" BorderBrush="Black"/>
+        <TextBox x:Name="txtUsername" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,32,10,59" Grid.Row="7" Grid.RowSpan="2" BorderBrush="Black"/>
+        <PasswordBox x:Name="PasswordBox" Grid.Row="8" VerticalAlignment="Top" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 10" Margin="10,31,0,0" Width="368" Height="28" Grid.RowSpan="2" BorderBrush="Black"/>
+        <Button Content="Sign Up" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="114,23.333,113,0" Grid.Row="9" Height="35" Width="161"/>
+        <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353"/>
     </Grid>
 </Window>

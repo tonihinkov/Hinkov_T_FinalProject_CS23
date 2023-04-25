@@ -5,8 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HinkovT_FinalPr_Sem2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="852" Width="393" Background="#FF888888" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="338" Margin="-138,-32,-164,0" Grid.RowSpan="6" Stroke="#FFD9D9D9" VerticalAlignment="Top" Width="690" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-156.244"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FFD9D9D9" HorizontalAlignment="Left" Height="338" Margin="-148,35,-154,0" Grid.Row="4" Grid.RowSpan="7" Stroke="#FFD9D9D9" VerticalAlignment="Top" Width="690" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-19.551"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBlock HorizontalAlignment="Left" Margin="0,0.667,0,0" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="38" Width="388" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="2" Text="Become a Member to Fly With Us!" Foreground="Black" Grid.Row="1"/>
+        <Button Content="Log In" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="LogIn_Click" FontFamily="Palatino Linotype" Margin="72,50.667,75,0" Grid.Row="5" Height="67" Grid.RowSpan="2" Width="241"/>
+        <Button Content="Sign Up"  Background="#FFB9B9B9" BorderBrush="Black" Foreground="Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="SignUp_Click" FontFamily="Palatino Linotype" Margin="72,0,75,0" Grid.Row="8" Height="67" Grid.RowSpan="2" Width="241"/>
+        <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353"/>
     </Grid>
 </Window>
