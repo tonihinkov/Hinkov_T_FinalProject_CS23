@@ -44,8 +44,8 @@
             </Rectangle.RenderTransform>
         </Rectangle>
         <TextBlock HorizontalAlignment="Left" Margin="0,1,0,0" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="38" Width="388" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="2" Text="Book a Charter WIth Us!" Foreground="Black" Grid.Row="2" Height="107"/>
-        <Button Content="Destinations" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="114,33.667,113,0" Grid.Row="7" Height="35" Width="161" Grid.RowSpan="2"/>
-        <Button Content="Fleet" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="114,0.333,113,0" Grid.Row="6" Height="35" Width="161"/>
+        <Button Content="Destinations" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Destinations_Click" FontFamily="Palatino Linotype" Margin="114,33.667,113,0" Grid.Row="7" Height="35" Width="161" Grid.RowSpan="2"/>
+        <Button Content="Fleet" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Fleet_Click" FontFamily="Palatino Linotype" Margin="114,0.333,113,0" Grid.Row="6" Height="35" Width="161"/>
         <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353"/>
     </Grid>
 </Window>

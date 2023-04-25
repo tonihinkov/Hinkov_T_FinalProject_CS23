@@ -58,6 +58,6 @@
         <TextBox x:Name="txtCVC" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,9,10,20.667" Grid.Row="7" BorderBrush="Black" Grid.ColumnSpan="2"/>
         <Label Content="Expiry Date:" Foreground=" Black" FontSize="20" Grid.Row="7" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Height="45" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" Margin="0,43,0,0" Grid.RowSpan="2" />
         <TextBox x:Name="txtExpiry" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,29.333,10,0.333" Grid.Row="8" BorderBrush="Black" Grid.ColumnSpan="2"/>
-        <Button Content="Done" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="119,33.333,0,0" Grid.Row="9" Height="35" Width="161" Grid.RowSpan="2"/>
+        <Button Content="Done" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Done_Click" FontFamily="Palatino Linotype" Margin="119,33.333,0,0" Grid.Row="9" Height="35" Width="161" Grid.RowSpan="2"/>
     </Grid>
 </Window>

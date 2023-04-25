@@ -49,6 +49,6 @@
         <TextBox x:Name="txtUsername" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,9.667,10,22" Grid.Row="7" BorderBrush="Black"/>
         <PasswordBox x:Name="PasswordBox" Grid.Row="8" VerticalAlignment="Top" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 10" Margin="10,31,10,0" Width="368" Height="28" Grid.RowSpan="2" BorderBrush="Black"/>
         <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353"/>
-        <Button Content="Log In" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="114,23.333,113,0" Grid.Row="9" Height="35" Width="161"/>
+        <Button Content="Log In" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="LogIn_Click" FontFamily="Palatino Linotype" Margin="114,23.333,113,0" Grid.Row="9" Height="35" Width="161"/>
     </Grid>
 </Window>

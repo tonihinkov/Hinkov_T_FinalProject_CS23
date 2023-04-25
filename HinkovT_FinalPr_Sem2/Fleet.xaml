@@ -46,6 +46,6 @@
         <TextBlock HorizontalAlignment="Left" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="38" Width="388" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="2" Text="Our Aircraft Fleet" Foreground="Black" Grid.Row="1" Height="107" Margin="0,9.667,0,0"/>
         <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353"/>
         <DataGrid HorizontalAlignment="Left" Height="100" Margin="130,49,0,0" Grid.Row="4" Grid.RowSpan="3" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Go Back" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="109,33.333,118,0" Grid.Row="9" Height="35" Width="161" Grid.RowSpan="2"/>
+        <Button Content="Go Back" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Back_Click" FontFamily="Palatino Linotype" Margin="109,33.333,118,0" Grid.Row="9" Height="35" Width="161" Grid.RowSpan="2"/>
     </Grid>
 </Window>

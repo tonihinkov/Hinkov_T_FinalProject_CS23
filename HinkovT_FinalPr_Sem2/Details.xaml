@@ -50,7 +50,7 @@
         <Label Content="Best Aircraft for Your Trip:" Foreground=" Black" FontSize="20" Grid.Row="7" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,0.333,0,0" Height="45" HorizontalContentAlignment="Center" />
         <TextBox x:Name="txtPlane" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,45.333,10,43.667" Grid.Row="7" BorderBrush="Black" Grid.RowSpan="2"/>
         <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353"/>
-        <Button Content="Next" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="111,34,116,0" Grid.Row="8" Height="35" Width="161" Grid.RowSpan="2"/>
-        <Button Content="Go Back" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="111,33.333,116,0" Grid.Row="9" Height="35" Width="161" Grid.RowSpan="2"/>
+        <Button Content="Next" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Next_Click" FontFamily="Palatino Linotype" Margin="111,34,116,0" Grid.Row="8" Height="35" Width="161" Grid.RowSpan="2"/>
+        <Button Content="Go Back" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Back_Click" FontFamily="Palatino Linotype" Margin="111,33.333,116,0" Grid.Row="9" Height="35" Width="161" Grid.RowSpan="2"/>
     </Grid>
 </Window>
