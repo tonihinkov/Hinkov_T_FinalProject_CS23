@@ -27,17 +27,17 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Rectangle Fill="#FFD1D1D1" HorizontalAlignment="Left" Height="381" Grid.RowSpan="4" Stroke="#FFD1D1D1" VerticalAlignment="Top" Width="698" Margin="-136,-195,-174,0" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+        <Rectangle Fill="#FFD1D1D1" HorizontalAlignment="Left" Height="381" Grid.RowSpan="3" Stroke="#FFD1D1D1" VerticalAlignment="Top" Width="698" Margin="-143,-230,-167,0" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="17.955"/>
+                    <RotateTransform Angle="18.863"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle Fill="#FFD1D1D1" HorizontalAlignment="Left" Height="491" Grid.Row="2" Grid.RowSpan="10" Stroke="#FFD1D1D1" VerticalAlignment="Top" Width="698" Margin="-167,48,-143,0" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+        <Rectangle Fill="#FFD1D1D1" HorizontalAlignment="Left" Height="546" Grid.RowSpan="10" Stroke="#FFD1D1D1" VerticalAlignment="Top" Width="698" Margin="-157,34.667,-153,0" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Grid.Row="1">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -47,16 +47,17 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <TextBlock HorizontalAlignment="Left" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="38" Width="388" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="3" Text="Finalize Your Bespoke Trip" Foreground="Black" Height="107" Margin="0,35,0,0" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="38" Width="388" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="2" Text="Finalize Your Bespoke Trip" Foreground="Black" Height="107" Margin="0,11,0,0" Grid.ColumnSpan="2"/>
         <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353" Grid.ColumnSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,35.333,0,0" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="20" Width="368" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="3" Text="You are moments away from finalizing your charter! Please, enter your payment details" Foreground="Black" Grid.Row="3" Height="107" RenderTransformOrigin="0.516,0.6" Grid.ColumnSpan="2"/>
-        <Label Content="Card Number:" Foreground=" Black" FontSize="20" Grid.Row="5" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,3.333,0,0" Height="45" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" />
-        <TextBox x:Name="txtCardNum" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,48.333,10,39" Grid.Row="5" BorderBrush="Black" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-        <Label Content="Cardholder Name:" Foreground=" Black" FontSize="20" Grid.Row="6" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,24.667,0,0" Height="45" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" Grid.RowSpan="2" />
-        <TextBox x:Name="txtCardName" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,10,10,19.667" Grid.Row="7" BorderBrush="Black" Grid.ColumnSpan="2"/>
-        <Label Content="CVC:" Foreground=" Black" FontSize="20" Grid.Row="7" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,39,0,0" Height="45" HorizontalContentAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2" />
-        <TextBox x:Name="txtCVC" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,20,10,9.667" Grid.Row="8" BorderBrush="Black" Grid.ColumnSpan="2"/>
-        <Label Content="Expiry Date:" Foreground=" Black" FontSize="20" Grid.Row="8" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Height="45" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" Margin="0,54,0,0" Grid.RowSpan="2" />
-        <TextBox x:Name="txtExpiry" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,40.333,10,49" Grid.Row="9" BorderBrush="Black" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,24.333,0,0" TextWrapping=" Wrap" VerticalAlignment="Top" FontSize="20" Width="368" TextAlignment=" Center" FontFamily="Palatino Linotype" Grid.RowSpan="3" Text="You are moments away from finalizing your charter! Please, enter your payment details" Foreground="Black" Grid.Row="2" Height="107" RenderTransformOrigin="0.516,0.6" Grid.ColumnSpan="2"/>
+        <Label Content="Card Number:" Foreground=" Black" FontSize="20" Grid.Row="3" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,50.667,0,0" Height="45" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+        <TextBox x:Name="txtCardNum" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,37,10,50.333" Grid.Row="4" BorderBrush="Black" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Label Content="Cardholder Name:" Foreground=" Black" FontSize="20" Grid.Row="5" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,13.333,0,0" Height="45" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" />
+        <TextBox x:Name="txtCardName" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,57.333,10,31" Grid.Row="5" BorderBrush="Black" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Label Content="CVC:" Foreground=" Black" FontSize="20" Grid.Row="6" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Margin="0,27.667,0,0" Height="45" HorizontalContentAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2" />
+        <TextBox x:Name="txtCVC" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,9,10,20.667" Grid.Row="7" BorderBrush="Black" Grid.ColumnSpan="2"/>
+        <Label Content="Expiry Date:" Foreground=" Black" FontSize="20" Grid.Row="7" HorizontalAlignment=" Center" FontFamily="Palatino Linotype" VerticalAlignment="Top" Width="388" Height="45" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" Margin="0,43,0,0" Grid.RowSpan="2" />
+        <TextBox x:Name="txtExpiry" Background="#FFB9B9B9" Foreground=" Black" FontSize=" 20" Margin="10,29.333,10,0.333" Grid.Row="8" BorderBrush="Black" Grid.ColumnSpan="2"/>
+        <Button Content="Done" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Submit_Click" FontFamily="Palatino Linotype" Margin="119,33.333,0,0" Grid.Row="9" Height="35" Width="161" Grid.RowSpan="2"/>
     </Grid>
 </Window>
