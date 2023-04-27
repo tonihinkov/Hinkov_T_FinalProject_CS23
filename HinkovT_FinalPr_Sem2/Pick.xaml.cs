@@ -28,9 +28,11 @@ namespace HinkovT_FinalPr_Sem2
 
         private void Next_Click(object sender, RoutedEventArgs e)
         {
-            Details details = new Details();
-            details.Show();
-            this.Close();
+            //Details details = new Details();
+            //details.Show();
+            //this.Close();
+            string selectedItem = ((ComboBoxItem)comboBox.SelectedItem).Content.ToString();
+            System.Windows.Navigation.NavigationService.Navigate(new Details(selectedItem));
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
