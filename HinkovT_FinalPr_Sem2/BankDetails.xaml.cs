@@ -28,7 +28,29 @@ namespace HinkovT_FinalPr_Sem2
 
         private void Done_Click(object sender, RoutedEventArgs e)
         {
+            SqlConnection sqlCon = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\Toni\Source\Repos\HinkovT_FinalPr_Sem2.1\HinkovT_FinalPr_Sem2\DB.mdf; Integrated Security = True");
+            try
+            {
+                sqlCon.Open();
+                string query = "INSERT INTO dbo.[BankDetails] (cardnum, name, cvc, expirydate) values('" + this.txtCardNum.Text + "','" + this.txtCardName.Text + "','" + this.txtCVC.Text + "','" + this.txtExpiry.Text + "')";
+                SqlCommand cmd = new SqlCommand(query, sqlCon);
 
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Successfully saved");
+
+                Book book = new Book();
+                book.Show();
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlCon.Close();
+            }
         }
     }
 }

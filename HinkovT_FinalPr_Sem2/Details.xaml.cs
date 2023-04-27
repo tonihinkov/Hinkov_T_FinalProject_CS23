@@ -25,7 +25,16 @@ namespace HinkovT_FinalPr_Sem2
         {
             InitializeComponent();
         }
-
+        //private void Details_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    string selectedItem = System.Windows.Navigation.NavigationService.GetNavigationData().ToString();
+        //    string connestionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Toni\Source\Repos\HinkovT_FinalPr_Sem2.1\HinkovT_FinalPr_Sem2\DB.mdf;Integrated Security=True";
+        //    using (SqlConnection connection = new SqlConnection(connestionString))
+        //    {
+        //        connection.Open();
+        //        string query = "SELECT * FROM dbo.[Destinations] WHERE name = "
+        //    }
+        //}
         private void Next_Click(object sender, RoutedEventArgs e)
         {
             BankDetails bankdetails = new BankDetails();
