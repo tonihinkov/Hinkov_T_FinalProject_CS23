@@ -50,11 +50,10 @@
         <Image Source="C:\Users\Toni\Documents\school\IT 12\prplane1.png" HorizontalAlignment="Center" Height="211" Margin="10,43.667,25,-20" Grid.Row="10" Grid.RowSpan="4" VerticalAlignment="Center" Width="353"/>
         <Button Content="Next" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Next_Click" FontFamily="Palatino Linotype" Margin="107,10,120,0" Grid.Row="8" Height="35" Width="161"/>
         <Button Content="Go Back" Background="#FFB9B9B9" BorderBrush="Black" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" Click="Back_Click" FontFamily="Palatino Linotype" Margin="107,10.333,120,0" Grid.Row="9" Height="35" Width="161"/>
-        <!--<ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="42,28.333,0,0" Grid.Row="6" VerticalAlignment="Top" Width="298" Height="20" SelectionChanged="Combo_SelectionChanged">
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="42,28.333,0,0" Grid.Row="6" VerticalAlignment="Top" Width="298" Height="20" ItemsSource="{Binding Destinations}">
             <ComboBoxItem Content="Aeroport du golfe de Saint-Tropez, St. Tropez, France" />
             <ComboBoxItem Content="Catania Airport, Sicily, Italy" />
             <ComboBoxItem Content="Milas-Bodrum Airport, Bodrum, Turkey" />
-
-        </ComboBox>-->
+        </ComboBox>
     </Grid>
 </Window>

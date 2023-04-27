@@ -21,27 +21,45 @@ namespace HinkovT_FinalPr_Sem2
     /// </summary>
     public partial class Details : Window
     {
-        public Details()
+        public Details(Details selectedDestination)
         {
             InitializeComponent();
+
+            DataContext = new DestinationDetailsViewModel(selectedDestination);
         }
-        //private void Details_Loaded(object sender, RoutedEventArgs e)
-        //{
-        //    string selectedItem = System.Windows.Navigation.NavigationService.GetNavigationData().ToString();
-        //    string connestionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Toni\Source\Repos\HinkovT_FinalPr_Sem2.1\HinkovT_FinalPr_Sem2\DB.mdf;Integrated Security=True";
-        //    using (SqlConnection connection = new SqlConnection(connestionString))
-        //    {
-        //        connection.Open();
-        //        string query = "SELECT * FROM dbo.[Destinations] WHERE name = "
-        //    }
-        //}
+
+        public Details(Pick selectedDestination)
+        {
+        }
+
+        public class DestinationDetailsViewModel
+        {
+            private object selectedDestination1;
+            private Details selectedDestination;
+
+            public Pick SelectedDestination { get; set; }
+
+            public DestinationDetailsViewModel(Pick selectedDestination)
+            {
+                SelectedDestination = selectedDestination;
+            }
+
+            public DestinationDetailsViewModel(Pick selectedDestination, object selectedDestination1) : this(selectedDestination)
+            {
+                this.selectedDestination1 = selectedDestination1;
+            }
+
+            public DestinationDetailsViewModel(Details selectedDestination)
+            {
+                this.selectedDestination = selectedDestination;
+            }
+        }
         private void Next_Click(object sender, RoutedEventArgs e)
         {
             BankDetails bankdetails = new BankDetails();
             bankdetails.Show();
             this.Close();
         }
-
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             Pick pick = new Pick();
@@ -49,4 +67,19 @@ namespace HinkovT_FinalPr_Sem2
             this.Close();
         }
     }
+    //public class DetailsInfo
+    //{
+    //    public string Duration { get; set; }
+    //    public string Bestplane { get; set; }
+    //    public string Name { get; set; }
+
+
+    //    public DetailsInfo(string duration, string bestplane, string name)
+    //    {
+    //        Duration = duration;
+    //        Bestplane = bestplane;
+    //        Name = name;
+
+    //    }
+    //}
 }
